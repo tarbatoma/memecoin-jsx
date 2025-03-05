@@ -1,0 +1,31 @@
+/* src/style/ReactionCounterCard.css */
+.reaction-container {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 8px;
+    }
+    
+    .reaction {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .emoji-button {
+      font-size: 24px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+    
+    .emoji-button:disabled {
+      cursor: not-allowed;
+    }
+    
+    .reaction-count {
+      font-size: 16px;
+      font-weight: bold;
+      margin-top: 4px;
+    }
+    
